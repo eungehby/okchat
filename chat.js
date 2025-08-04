@@ -9,7 +9,7 @@ form.addEventListener('submit', function (e) {
         input.value = '';
     }
 });
-socket.on('chatmessage', function (msg) {
+socket.on('chat message', function (msg) {
     varitem = document.createElement('li');
     item.textContent = msg;
     messages.appendChild(item);
